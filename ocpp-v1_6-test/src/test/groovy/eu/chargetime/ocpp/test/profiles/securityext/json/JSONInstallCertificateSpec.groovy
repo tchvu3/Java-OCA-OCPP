@@ -28,8 +28,6 @@ import eu.chargetime.ocpp.model.securityext.types.CertificateUseEnumType
     SOFTWARE.
 */
 
-import eu.chargetime.ocpp.model.securityext.types.LogEnumType
-import eu.chargetime.ocpp.model.securityext.types.LogParametersType
 import eu.chargetime.ocpp.test.base.json.JSONBaseSpec
 import spock.util.concurrent.PollingConditions
 

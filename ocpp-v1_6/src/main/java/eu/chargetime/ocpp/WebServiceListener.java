@@ -41,7 +41,7 @@ import org.slf4j.LoggerFactory;
 public class WebServiceListener implements Listener {
   private static final Logger logger = LoggerFactory.getLogger(WebServiceListener.class);
   private static final String WSDL_CENTRAL_SYSTEM =
-      "eu/chargetime/ocpp/OCPP_CentralSystemService_1.6.wsdl";
+          "eu/chargetime/ocpp/OCPP_CentralSystemService_1.6.wsdl";
   private final ISessionFactory sessionFactory;
 
   private ListenerEvents events;

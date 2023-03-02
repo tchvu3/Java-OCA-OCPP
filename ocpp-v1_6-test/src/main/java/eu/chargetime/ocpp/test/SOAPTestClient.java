@@ -47,7 +47,7 @@ import org.slf4j.LoggerFactory;
 public class SOAPTestClient implements IClientAPI {
   private static final Logger logger = LoggerFactory.getLogger(SOAPTestClient.class);
   private static final String WSDL_CHARGE_POINT =
-      "eu/chargetime/ocpp/OCPP_ChargePointService_1.6.wsdl";
+          "eu/chargetime/ocpp2/OCPP_ChargePointService_1.6.wsdl";
 
   private Client client;
   private SOAPCommunicator communicator;
