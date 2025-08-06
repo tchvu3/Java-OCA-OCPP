@@ -30,7 +30,7 @@ public class ServerEventConfig {
             }
 
             @Override
-            public void lostSession(UUID sessionIndex) {
+            public void lostSession(UUID sessionIndex, ProtocolVersion protocolVersion) {
 
                 System.out.println("Session " + sessionIndex + " lost connection");
             }

@@ -149,7 +149,7 @@ public class Server {
                   public void handleConnectionClosed() {
                     Optional<UUID> sessionIdOptional = getSessionID(session);
                     if (sessionIdOptional.isPresent()) {
-                      serverEvents.lostSession(sessionIdOptional.get());
+                      serverEvents.lostSession(sessionIdOptional.get(), session.getFeatureRepository().getProtocolVersion());
                       sessions.remove(sessionIdOptional.get());
                     } else {
                       logger.warn("Active session not found for {}", session.getSessionId());

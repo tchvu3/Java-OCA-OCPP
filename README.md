@@ -1,6 +1,6 @@
-[![Java CI with Maven](https://github.com/ChargeTimeEU/Java-OCA-OCPP/actions/workflows/maven.yml/badge.svg)](https://github.com/ChargeTimeEU/Java-OCA-OCPP/actions/workflows/maven.yml)
-[![codecov](https://codecov.io/gh/ChargeTimeEU/Java-OCA-OCPP/branch/master/graph/badge.svg)](https://codecov.io/gh/ChargeTimeEU/Java-OCA-OCPP)
-[![Gitter](https://badges.gitter.im/ChargeTimeEU/Java-OCA-OCPP.svg)](https://gitter.im/ChargeTimeEU/Java-OCA-OCPP?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Java CI with Maven](https://github.com/tchvu3/Java-OCA-OCPP/actions/workflows/maven.yml/badge.svg)](https://github.com/tchvu3/Java-OCA-OCPP/actions/workflows/maven.yml)
+[![codecov](https://codecov.io/gh/tchvu3/Java-OCA-OCPP/branch/master/graph/badge.svg)](https://codecov.io/gh/tchvu3/Java-OCA-OCPP)
+[![Gitter](https://badges.gitter.im/tchvu3/Java-OCA-OCPP.svg)](https://gitter.im/tchvu3/Java-OCA-OCPP?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 Java-OCA-OCPP
 =============

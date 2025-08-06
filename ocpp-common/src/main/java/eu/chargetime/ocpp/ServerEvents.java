@@ -33,5 +33,5 @@ public interface ServerEvents {
 
   void newSession(UUID sessionIndex, SessionInformation information);
 
-  void lostSession(UUID sessionIndex);
+  void lostSession(UUID sessionIndex, ProtocolVersion protocolVersion);
 }

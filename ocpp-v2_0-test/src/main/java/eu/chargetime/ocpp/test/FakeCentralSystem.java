@@ -25,14 +25,7 @@ package eu.chargetime.ocpp.test;
    SOFTWARE.
 */
 
-import eu.chargetime.ocpp.AuthenticationException;
-import eu.chargetime.ocpp.IServerAPI;
-import eu.chargetime.ocpp.JSONConfiguration;
-import eu.chargetime.ocpp.JSONServer;
-import eu.chargetime.ocpp.NotConnectedException;
-import eu.chargetime.ocpp.OccurenceConstraintException;
-import eu.chargetime.ocpp.ServerEvents;
-import eu.chargetime.ocpp.UnsupportedFeatureException;
+import eu.chargetime.ocpp.*;
 import eu.chargetime.ocpp.feature.Feature;
 import eu.chargetime.ocpp.model.Confirmation;
 import eu.chargetime.ocpp.model.Request;
@@ -82,7 +75,7 @@ public class FakeCentralSystem {
             }
 
             @Override
-            public void lostSession(UUID sessionIndex) {
+            public void lostSession(UUID sessionIndex, ProtocolVersion protocolVersion) {
               currentSession = null;
             }
           });

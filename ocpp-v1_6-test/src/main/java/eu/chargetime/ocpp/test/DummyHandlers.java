@@ -42,6 +42,7 @@ import eu.chargetime.ocpp.model.firmware.FirmwareStatusNotificationConfirmation;
 import eu.chargetime.ocpp.model.firmware.FirmwareStatusNotificationRequest;
 import eu.chargetime.ocpp.model.securityext.*;
 import eu.chargetime.ocpp.model.securityext.types.GenericStatusEnumType;
+import eu.chargetime.ocpp.ProtocolVersion;
 
 import java.lang.reflect.Type;
 import java.time.ZonedDateTime;
@@ -212,7 +213,7 @@ public class DummyHandlers {
       }
 
       @Override
-      public void lostSession(UUID identity) {
+      public void lostSession(UUID identity, ProtocolVersion protocolVersion) {
         currentSessionIndex = null;
         currentIdentifier = null;
         // clear
