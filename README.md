@@ -39,14 +39,14 @@ Add the following repository to your porject:
 </repositories>
 ```
 
-and then add the latest version of the library (in this example ocpp 1.6 and 2.0.1 together):
+and then add the latest version of the library by its tag in the git repo (in this example ocpp 1.6 and 2.0.1 together):
 
 ```xml
-<!-- https://jitpack.io/#tchvu3/Java-OCA-OCPP/v1.3 -->
+<!-- https://jitpack.io/#tchvu3/Java-OCA-OCPP -->
 <dependency>
     <groupId>com.github.tchvu3.Java-OCA-OCPP</groupId>
     <artifactId>ocpp-v2</artifactId>
-    <version>v1.3</version>
+    <version>[LATEST_TAG]</version>
 </dependency>
 ```
 
