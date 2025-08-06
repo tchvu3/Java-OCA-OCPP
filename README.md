@@ -8,7 +8,7 @@ Java-OCA-OCPP
 A library for the Open Charge-Point Protocol from openchargealliance.org
 
 This library is made to support anyone who wants to implement a Central System or Charge Point that follows the Open Charge-Point Protocol.
-Please note, this is a library and not an application, so there is no main method. 
+Please note, this is a library and not an application, so there is no main method.
 
 The design is driven by test, which will ensure premium software that is easy to adapt and modify to your needs.
 
@@ -18,12 +18,37 @@ Incoming request events are split into feature profiles as described in the OCPP
 I recommend that you download and read the specification from openchargealliance.org
 
 See the project plan here:
-    https://tree.taiga.io/project/tvolden-java-oca-ocpp/
+https://tree.taiga.io/project/tvolden-java-oca-ocpp/
 
 Maven
 =====
 
 Find the maven repo here: https://mvnrepository.com/artifact/eu.chargetime.ocpp
+
+Import the latest version from jitpack
+=====
+Add the following repository to your porject:
+
+```xml
+
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+
+and then add the latest version of the library (in this example ocpp 1.6 and 2.0.1 together):
+
+```xml
+<!-- https://jitpack.io/#tchvu3/Java-OCA-OCPP/v1.3 -->
+<dependency>
+    <groupId>com.github.tchvu3.Java-OCA-OCPP</groupId>
+    <artifactId>ocpp-v2</artifactId>
+    <version>v1.3</version>
+</dependency>
+```
 
 License
 =======
